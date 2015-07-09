@@ -1,0 +1,19 @@
+Codebook for the tidying of accelerometer application data
+
+Raw data came from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+Here is a list of all the datasets used:
+-X.train.txt
+-subject_train.txt
+-y_train.txt
+-subject_test.txt
+-X_test.txt
+-y_test.txt
+-features.txt
+
+
+The descriptive labels are all contained in the features.txt file, I assigned the labels to a data frame that had the columns of main data(all train and test files) merged together.
+
+I then took the subject file and manually assigned them to their proper subject.
+
+After the above, a new data set was created.
